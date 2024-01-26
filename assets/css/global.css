@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'Caslon';
+  src: url('../fonts/Caslon/ACaslonPro-Bold.otf') format('opentype');
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  overflow-x: hidden;
+}
+
+.inter {
+  font-family: 'Inter', sans-serif;
+}
+
+.rubik {
+  font-family: 'Rubik', sans-serif;
+}
+
+.caslon {
+  font-family: 'Caslon', serif;
+}
+
+.header-bg {
+  background-image: url(/obrigado-2/header-bg.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 100vh; */
+  padding-bottom: 20px;
+}
+
+.shadow-bg {
+  box-shadow: 0px 0px 10.3659px rgb(209, 200, 200);
+}
+
+@media (min-width: 1024px) {
+  .catia-bg {
+    background-image: url(/obrigado-2/catia-bg.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+  .header-bg {
+    height: 110vh;
+  }
+}
+
+@media (min-width: 1500px) {
+  .header-bg {
+    height: 85vh;
+  }
+}
+
+.onda-bg {
+  background-image: url(/obrigado-2/bg-onda.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
